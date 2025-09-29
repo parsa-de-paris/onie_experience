@@ -12,7 +12,7 @@ You can also refer to the official ONIE build instructions here:
 
 ### 1. Install Essential Dependencies
 
-Before starting, make sure to install all required dependencies for your system. (You can add specific dependency commands here if you want.)
+Before starting, make sure to install all required dependencies for your system.
 ```bash
 DEBIAN_BUILD_HOST_PACKAGES	= build-essential stgit u-boot-tools util-linux \
 				  gperf device-tree-compiler python-all-dev xorriso \
