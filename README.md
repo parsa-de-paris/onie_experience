@@ -1,7 +1,7 @@
 # ONIE Build Experience for accton_as7326_56x using DUE project
 
 This repository documents the process I followed to build ONIE (Open Network Install Environment) for the device **accton_as7326_56x**.
-I got ONIE built using `linux-live-server` version `20.04`.
+I got ONIE built using `ubuntu-live-server` version `20.04`.
 
 You can also refer to the official ONIE build instructions here:  
 [ONIE Building Documentation](https://opencomputeproject.github.io/onie/developers/building.html#branches-and-build-environment-compatibility)
