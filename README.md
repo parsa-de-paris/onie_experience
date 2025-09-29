@@ -67,6 +67,7 @@ sudo chown -R $USER:$USER ~/onie/build
 
 Run the following command to start the build process:
 ```bash
+cd build-config/
 make -j4 MACHINEROOT=../machine/accton MACHINE=accton_as7326_56x all recovery-iso
 ```
 if everything goes well, in the `onie/build/images` directory you will see:
