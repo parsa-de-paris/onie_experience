@@ -1,6 +1,7 @@
 # ONIE Build Experience for accton_as7326_56x using DUE project
 
 This repository documents the process I followed to build ONIE (Open Network Install Environment) for the device **accton_as7326_56x**.
+I got ONIE built using `linux-live-server` version `20.04`.
 
 You can also refer to the official ONIE build instructions here:  
 [ONIE Building Documentation](https://opencomputeproject.github.io/onie/developers/building.html#branches-and-build-environment-compatibility)
@@ -57,6 +58,21 @@ Run the following command to start the build process:
 ```bash
 make -j4 MACHINEROOT=../machine/accton MACHINE=accton_as7326_56x all recovery-iso
 ```
+if everything goes well, in the `onie\build\images` directory you will see:
+bash```
+Here is the text content from the image:
+
+```
+user@due-onie-build-debian-9:~/onie/build/images$ ls -l
+total 101124
+-rw-r--r-- 1 user user 10685636 Sep 28 07:16 accton_as7326_56x-r0.initrd
+-rw-r--r-- 1 user user 4932256 Sep 28 07:15 accton_as7326_56x-r0.vmlinuz
+-rw-r--r-- 1 user user 37588992 Sep 28 07:17 onie-recovery-x86_64-accton_as7326_56x-r0.efi64.pxe
+-rw-r--r-- 1 user user 34930688 Sep 28 07:17 onie-recovery-x86_64-accton_as7326_56x-r0.iso
+-rw-r--r-- 1 user user 15484922 Sep 28 07:16 onie-updater-x86_64-accton_as7326_56x-r0
+```
+
+
 
 ## Notes
 
