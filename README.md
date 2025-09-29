@@ -13,6 +13,17 @@ You can also refer to the official ONIE build instructions here:
 ### 1. Install Essential Dependencies
 
 Before starting, make sure to install all required dependencies for your system. (You can add specific dependency commands here if you want.)
+```bash
+DEBIAN_BUILD_HOST_PACKAGES	= build-essential stgit u-boot-tools util-linux \
+				  gperf device-tree-compiler python-all-dev xorriso \
+				  autoconf automake bison flex texinfo libtool libtool-bin \
+				  gawk libncurses5 libncurses5-dev bc \
+				  dosfstools mtools pkg-config git wget help2man libexpat1 \
+				  libexpat1-dev fakeroot python-sphinx rst2pdf \
+				  libefivar-dev libnss3-tools libnss3-dev libpopt-dev \
+				  libssl-dev sbsigntool uuid-runtime uuid-dev cpio \
+				  bsdmainutils unzip
+```
 
 ---
 
