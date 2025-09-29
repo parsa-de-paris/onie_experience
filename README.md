@@ -1,4 +1,4 @@
-# ONIE Build Experience for accton_as7326_56x
+# ONIE Build Experience for accton_as7326_56x using DUE project
 
 This repository documents the process I followed to build ONIE (Open Network Install Environment) for the device **accton_as7326_56x**.
 
