@@ -6,7 +6,7 @@ I got ONIE built using `ubuntu-live-server` version `20.04`.
 You can also refer to the official ONIE build instructions here:  
 [ONIE Building Documentation](https://opencomputeproject.github.io/onie/developers/building.html#branches-and-build-environment-compatibility)
 [ONIE for accton_as7326_56x](https://github.com/opencomputeproject/onie/blob/master/machine/accton/accton_as7326_56x/INSTALL)
----
+
 
 ## Steps to Build ONIE
 
