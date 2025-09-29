@@ -58,11 +58,8 @@ Run the following command to start the build process:
 ```bash
 make -j4 MACHINEROOT=../machine/accton MACHINE=accton_as7326_56x all recovery-iso
 ```
-if everything goes well, in the `onie\build\images` directory you will see:
+if everything goes well, in the `onie/build/images` directory you will see:
 bash```
-Here is the text content from the image:
-
-```
 user@due-onie-build-debian-9:~/onie/build/images$ ls -l
 total 101124
 -rw-r--r-- 1 user user 10685636 Sep 28 07:16 accton_as7326_56x-r0.initrd
